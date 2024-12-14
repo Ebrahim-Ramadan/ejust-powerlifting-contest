@@ -1,15 +1,17 @@
+'use cache'
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="relative flex flex-col items-center justify-center h-screen">
       <Image
-        src="/globe-outline-dark-2.svg"
+        src="/home bg.jpeg"
         alt="Background"
         layout="fill"
         objectFit="cover"
+        priority={false}
 
-        quality={100}
+        quality={10}
         className="-z-10 opacity-20 blur-sm"
       />
 

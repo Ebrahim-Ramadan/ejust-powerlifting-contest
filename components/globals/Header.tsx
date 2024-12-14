@@ -1,4 +1,4 @@
-'use server'
+'use cache'
 import React from 'react'
 import Image from 'next/image'
 export const Header = () => {
@@ -7,6 +7,8 @@ export const Header = () => {
         <Image src="/ejlogo.png" 
   width={0}
   height={0}
+  priority={false}
+  quality={10}
   sizes="100vw"
   alt='ejust-logo'
   className='w-[20%] h-full'
