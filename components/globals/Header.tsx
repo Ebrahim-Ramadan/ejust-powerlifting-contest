@@ -11,7 +11,7 @@ export const Header = () => {
   quality={10}
   sizes="100vw"
   alt='ejust-logo'
-  className='w-[20%] h-full'
+  className='w-[70%] md:w-[20%] h-full'
    />
     </div>
   )
