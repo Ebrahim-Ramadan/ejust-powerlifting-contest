@@ -15,8 +15,8 @@ export default function Home() {
         className="-z-10 opacity-20 blur-sm"
       />
 
-      <p className="text-5xl md:text-8xl font-bold text-center text-white drop-shadow-xl">
-        E-JUST Powerlifting Contest
+      <p className="text-4xl md:text-8xl font-bold text-center text-white drop-shadow-xl">
+        E-JUST Powerlifting <span className="text-[#EB2028]">Championship</span>
       </p>
     </div>
   );
