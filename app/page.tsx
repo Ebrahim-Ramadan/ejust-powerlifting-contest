@@ -93,7 +93,7 @@ export default function Home() {
           className="blur-sm object-cover w-full h-full"
           />
           <p className="flex flex-col md:flex-row absolute inset-0 flex items-center justify-center text-[#EB2028] text-center text-6xl md:text-5xl font-bold">
-<span className="text-neutral-800/90">NEVER</span> MISS OUT
+<span className="text-neutral-800/90 md:mr-2">NEVER</span> MISS OUT
           </p>
          </div>
           <Link href="https://forms.gle/CP1rVgGLSjpybWK49">
