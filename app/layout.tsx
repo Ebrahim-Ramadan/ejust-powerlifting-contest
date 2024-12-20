@@ -15,10 +15,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "E-JUST Powerlifting Contest",
+  title: "E-JUST Powerlifting Tournament",
   description: "THE BIG EVENT",
   openGraph: {
-    title: "E-JUST Powerlifting Contest",
+    title: "E-JUST Powerlifting Tournament",
     description: "The ultimate powerlifting event at E-JUST. Join us to witness incredible feats of strength.",
     url: "https://example.com", // Replace with your event's URL
     siteName: "E-JUST Powerlifting",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: "https://example.com/images/og-image.jpg", // Replace with your OG image URL
         width: 1200,
         height: 630,
-        alt: "E-JUST Powerlifting Contest",
+        alt: "E-JUST Powerlifting Tournament",
       },
     ],
     locale: "en_US",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "E-JUST Powerlifting Contest",
+    title: "E-JUST Powerlifting Tournament",
     description: "The ultimate powerlifting event at E-JUST. Join us to witness incredible feats of strength.",
     images: ["https://example.com/images/og-image.jpg"], // Same image URL as above
   },
