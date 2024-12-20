@@ -34,14 +34,14 @@ export const Countdown: React.FC = () => {
   const renderTimeUnit = (value: number, label: string) => (
     <div 
       className={`
-        flex flex-col items-center p-4 md:p-16 rounded-lg shadow-lg 
+        flex flex-col items-center p-2 md:p-16 
      
       `}
     >
-      <span className="text-6xl md:text-9xl font-bold">
+      <span className="text-lg md:text-3xl font-bold">
         {value.toString().padStart(2, '0')}
       </span>
-      <span className="text-sm md:text-lg text-neutral-400 font-medium">
+      <span className="text-xs md:text-2xl text-neutral-400 font-medium">
         {label}
       </span>
     </div>
@@ -50,12 +50,12 @@ export const Countdown: React.FC = () => {
   return (
     <div 
       className={`
-        min-h-screen flex items-center justify-center p-24 
+       flex items-center justify-center py-4 
       `}
     >
       <div className="text-center">
        
-        <div className="flex justify-center gap-2 md:gap-12 md:flex-row flex-col">
+        <div className="flex justify-center gap-2 flex-row">
           {renderTimeUnit(timeLeft.days, 'DAYS')}
           {renderTimeUnit(timeLeft.hours, 'HOURS')}
           {renderTimeUnit(timeLeft.minutes, 'MINUTES')}

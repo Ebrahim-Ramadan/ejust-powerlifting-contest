@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Calendar, MapPin, Users } from 'lucide-react';
+import Countdown from "@/components/Countdown";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
             </button>
           </Link>
         </header>
-
+<Countdown/>
         <section className="rounded-lg backdrop-blur-sm p-2 mb-16 w-full max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-6 text-center text-white">Event Details</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full">
@@ -84,7 +85,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="text-center mb-16 flex flex-col items-center justify-center gap-6">
+        <section className="text-center mb-4 flex flex-col items-center justify-center gap-6">
           <h2 className="text-3xl font-bold text-white">READY TO LIFT?</h2>
          <div className="relative w-full h-[50vh] md:h-auto flex ">
          <img
