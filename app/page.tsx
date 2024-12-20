@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link";
-import { Calendar, MapPin, Users } from 'lucide-react';
+import { Calendar, Github, MapPin, Users } from 'lucide-react';
 import Countdown from "@/components/Countdown";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
         className="fixed inset-0 z-0 w-full h-full blur-lg"
       />
 
-      <div className="container mx-auto px-4 py-24 relative z-10">
+      <div className="container mx-auto px-4 pt-24 relative z-10">
         <header className="text-center mb-16">
           <h1 className="text-4xl md:text-7xl  text-white drop-shadow-xl font-bold mb-4">
             <span className="ejust-word text-5xl md:text-8xl">E-JUST</span> Powerlifting <span className="text-[#EB2028]">Championship</span>
@@ -30,7 +30,6 @@ export default function Home() {
         </header>
 <Countdown/>
         <section className="rounded-lg backdrop-blur-sm p-2 mb-16 w-full max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6 text-center text-white">Event Details</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full">
             <div className="flex items-center justify-start w-full p-4">
               <Calendar className="w-10 h-10 mr-6 text-[#EB2028]" />
@@ -102,6 +101,12 @@ export default function Home() {
             </button>
           </Link>
         </section>
+
+        <footer className="flex flex-row items-center justify-center py-12">
+          <a className="flex justify-center bg-neutral-700 hover:bg-neutral-600 text-white font-bold p-2 rounded-full transition duration-300 ease-in-out transform hover:scale-105" href="https://github.com/Ebrahim-Ramadan/ejust-powerlifting-tournament">
+          <Github/>
+          </a>
+        </footer>
       </div>
 
     </div>
