@@ -1,6 +1,5 @@
 'use client'
 
-import Image from "next/image";
 import Link from "next/link";
 import { Calendar, MapPin, Users } from 'lucide-react';
 import Countdown from "@/components/Countdown";
@@ -76,7 +75,7 @@ export default function Home() {
               <ul className="list-disc pl-6 space-y-2 text-neutral-300">
                 <li>Start from full arm extension</li>
                 <li>Bar must touch chest and be pressed back to full extension</li>
-                <li>Follow judge's commands: Start, Press, Rack</li>
+                <li>Follow judge&apos;s commands: Start, Press, Rack</li>
                 <li>Buttocks must maintain contact with the bench</li>
                 <li>Feet must remain flat on the floor</li>
                 <li>No bouncing or downward movement after press starts</li>
